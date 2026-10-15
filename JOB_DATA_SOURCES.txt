@@ -1,0 +1,12 @@
+MIHNA AI — Job Data Source Notes (checked 14 October 2026)
+
+1. JobsForce India developer documentation: https://jobsforceindia.com/developers
+   Describes a free, read-only public API without authentication; supports job query and filters including city, category, work mode, experience, fresher status, pay and posted-within-days. Listing availability and data quality are controlled by the provider.
+
+2. Himalayas Remote Jobs API: https://himalayas.app/api
+   Describes a free public JSON API, country filters, remote-only data, rate limits and attribution requirement. It is not limited to the United States, but it is a remote-job source rather than a comprehensive India job database.
+
+3. Remotive Public API: https://remotive.com/remote-jobs/api
+   A further remote-only option. Its published terms require linking to the original Remotive listing and crediting Remotive; the public feed is delayed by 24 hours. Not selected as the default source in this release because the India-focused JobsForce API plus Himalayas provide a simpler two-source demonstration.
+
+Official government portal note: National Career Service (https://www.ncs.gov.in/) is an official free job-seeker service, but this project does not claim it has a publicly documented, unauthenticated live job-search API. Do not describe it as an integrated API unless access is independently verified.
